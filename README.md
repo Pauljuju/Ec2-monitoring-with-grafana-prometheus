@@ -27,7 +27,8 @@ NOTE: # Then log out and log back in (or run newgrp docker) for the changes to t
 
 sudo chmod 777 /var/run/docker.sock
 
-sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+# Download Latest version of Docker compose and save to path #/usr/local/bin/docker-compose "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 
 # Makes the Docker Compose binary executable.
