@@ -4,13 +4,20 @@ SSH into the EC2 server and run:
 Necessary Packages Installation on AWS EC2
 Install these Packages
 
+
 # Updates the package index to ensure you have the latest information about #available packages.
 sudo apt-get update -y = ubuntu
     yum for ec2
+    
 
 # Installs Docker from the default Ubuntu package repository.
 sudo apt install docker.io -y
 sudo yum install docker -y = ec2
+
+
+sudo systemctl start docker
+sudo systemctl enable docker
+
 
 # Adds the 'ubuntu' user to the 'docker' group, allowing the user to run Docker #commands without sudo.
 for bith ec2 or ubuntu
