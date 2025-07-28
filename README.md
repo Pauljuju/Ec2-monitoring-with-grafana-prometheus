@@ -41,6 +41,7 @@ docker-compose --version
 2. 📦 Deploy Monitoring Stack
 git clone https://*******************
 cd ec2-monitoring-with-grafana-prometheus
+
 sudo docker-compose -f "./build-process/docker-compose.yml" up -d --build
 
 4. 📊 Access Grafana
